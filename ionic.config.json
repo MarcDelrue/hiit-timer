@@ -1,0 +1,7 @@
+{
+  "name": "Hiit Timer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

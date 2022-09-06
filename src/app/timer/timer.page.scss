@@ -1,0 +1,26 @@
+.working{
+  --ion-background-color:red;
+
+}
+
+.done{
+  --ion-background-color:green;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.large-label {
+  font-size: 48px;
+}
+
+.top-spacer {
+  margin-top: 250px;
+}
+
+.bold {
+  font-weight: bold;
+}

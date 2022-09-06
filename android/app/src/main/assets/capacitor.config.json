@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Hiit Timer",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

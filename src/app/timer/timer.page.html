@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Timer</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [ngClass]="{'working': status === 'working', 'done': status === 'finished'}">
+  <div class="top-spacer">
+    <div class="flex-center large-label">
+      Round: {{ currentRound | number:'2.' }}
+    </div>
+    <div class="flex-center large-label">
+      {{ currentExercise }}
+    </div>
+    <div *ngIf="status !== 'finished'" class="flex-center large-label bold">
+      {{ timeToShow.minutes | number:'2.'}}:{{timeToShow.seconds | number:'2.'}}
+    </div>
+  </div>
+</ion-content>
